@@ -1,4 +1,4 @@
-# Biblioteca de estruturas de dados (Haskell)
+# Biblioteca de Estruturas de Dados (Haskell)
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
 **Nro do Grupo**: 01<br>
