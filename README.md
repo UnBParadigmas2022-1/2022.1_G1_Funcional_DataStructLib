@@ -17,6 +17,7 @@
 ## Sobre 
 O objetivo é construir uma biblioteca que agrege as principais estruturas de dados e seus algoritmos
 "clássicos" para as operações de inserção, ordenação, deleção e busca implementados no paradigma funcional. 
+
 Ao final do semestre, os repositórios nos diversos paradigmas serão unificados para a construção de uma biblioteca que documente a performance
 dessas operações.
 
