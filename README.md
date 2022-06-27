@@ -1,41 +1,29 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-
-**!! *Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto)*. !!** 
-
-Paradigmas:
- - Funcional
- - Logico
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2022.1_G1_Logico_ProjetoRoteirosAereos*. !!**
- 
- (Apague esses comentários)
-
-# NomeDoProjeto
+# Biblioteca de estruturas de dados (Haskell)
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo**: 01<br>
+**Paradigma**: Funcional<br>
 
 ## Alunos
 |Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-
+| 18/0013637 | Arthur Paiva Tavares|
+| 18/0117548 | Bruno Carmo Nunes |
+| 16/0028361 | Gabriel Batista Albino Silva |
+| 14/0156909  |  Nathalia Lorena Cardoso Dias |
+| 17/0051277  |  Nicolas Georgeos Mantzos |
+| 17/0114333  |  Sofia Costa Patrocinio |
+| 19/0048760 |Wellington Jonathan de Souza Rodrigues |
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
+O objetivo é construir uma biblioteca que agrege as principais estruturas de dados e seus algoritmos
+de "clássicos" para as operações de inserção, ordenação, deleção e busca. Ao final da apresentação dos
+paradigmas, os repositórios serão unificados para a construção de uma biblioteca que documente a performance
+dessas operações.
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
+**Linguagens**: Haskell<br>
 **Tecnologias**: xxxxxx<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
