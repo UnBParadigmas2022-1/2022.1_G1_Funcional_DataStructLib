@@ -16,8 +16,8 @@
 | 19/0048760 |Wellington Jonathan de Souza Rodrigues |
 ## Sobre 
 O objetivo é construir uma biblioteca que agrege as principais estruturas de dados e seus algoritmos
-de "clássicos" para as operações de inserção, ordenação, deleção e busca. Ao final da apresentação dos
-paradigmas, os repositórios serão unificados para a construção de uma biblioteca que documente a performance
+"clássicos" para as operações de inserção, ordenação, deleção e busca implementados no paradigma funcional. 
+Ao final do semestre, os repositórios nos diversos paradigmas serão unificados para a construção de uma biblioteca que documente a performance
 dessas operações.
 
 ## Screenshots
