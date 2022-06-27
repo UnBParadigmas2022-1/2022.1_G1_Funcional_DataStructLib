@@ -6,7 +6,8 @@
 
 ## Alunos
 |Matrícula | Aluno |
-| 18/0013637 | Arthur Paiva Tavares|
+| -- | -- |
+| 18/0013637 | Arthur Paiva Tavares |
 | 18/0117548 | Bruno Carmo Nunes |
 | 16/0028361 | Gabriel Batista Albino Silva |
 | 14/0156909  |  Nathalia Lorena Cardoso Dias |
