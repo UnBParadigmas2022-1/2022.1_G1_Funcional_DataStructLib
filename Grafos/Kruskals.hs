@@ -1,3 +1,7 @@
+module Kruskals (
+  kruskals
+) where
+
 import Data.Maybe
 import Data.List
 import qualified Data.Map as Map
@@ -90,8 +94,8 @@ applyUnion subsets x y
 pegaIndice:: [String] -> String -> Int
 pegaIndice lista elemento = fromJust (elemIndex elemento lista)
 
-kruskal:: Graph -> [Aresta]
-kruskal grafo = kruskalHelper limiteVertices 0 subsets' []
+kruskals:: Graph -> [Aresta]
+kruskals grafo = kruskalHelper limiteVertices 0 subsets' []
   where 
     arestas = grafoParaLista grafo
     vertices = nodes grafo

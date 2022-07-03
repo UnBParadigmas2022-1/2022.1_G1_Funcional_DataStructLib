@@ -1,3 +1,7 @@
+module BellmanFord (
+  bellmanFord
+) where
+
 import Data.Maybe
 import Data.List
 import qualified Data.Map as Map
@@ -52,8 +56,8 @@ helperFn indice grafo distancias
       nos = nodes grafo
 
 
-bf :: Graph -> String -> [(String, Double)]
-bf grafo inicio = helperFn ultimoElemento grafo distancias
+bellmanFord :: Graph -> String -> [(String, Double)]
+bellmanFord grafo inicio = helperFn ultimoElemento grafo distancias
   where 
     distancias = criaResultados (nodes grafo) inicio
     ultimoElemento = length distancias
