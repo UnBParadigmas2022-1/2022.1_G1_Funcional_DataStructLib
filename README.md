@@ -35,7 +35,7 @@ Gifs animados e outras ilustrações são bem-vindos!
 Explique como usar seu projeto.
 Procure ilustrar em passos, com apoio de telas do software.
 
-## Vídeo
+# Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
 Procure: 
 (i) Introduzir o projeto;
@@ -51,7 +51,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | -- | ---- | - |
 | Arthur Paiva Tavares  | - | - |
 | Bruno Carmo Nunes  | - | - |
-| Gabriel Batista Albino Silva  | - | - |
+| Gabriel Batista Albino Silva | Adição dos algorítmos de Kruskal's para criação de Arvores Geradoras Mínimas e Bellman Ford para encontrar distâncias a partir de um ponto, incluíndo implementação do método de detecção de ciclos "Union-Find". | Boa |
 | Nathalia Lorena Cardoso Dias  | - | - |
 | Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas, representa um ciclo, natureza dos caminhos etc) | - |
 | Sofia Costa Patrocinio  | - | - |
