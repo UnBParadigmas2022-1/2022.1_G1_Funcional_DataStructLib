@@ -51,7 +51,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | -- | ---- | - |
 | Arthur Paiva Tavares  | - | - |
 | Bruno Carmo Nunes  | - | - |
-| Gabriel Batista Albino Silva | Preparação do repositório para medição de tempo e correta importação dos módulos; Adição dos algorítmos de Kruskal's para criação de Arvores Geradoras Mínimas e Bellman Ford para encontrar distâncias a partir de um ponto, incluíndo implementação do método de detecção de ciclos "Union-Find". | Excelente |
+| Gabriel Batista Albino Silva | Adição dos algorítmos de Kruskal's para criação de Arvores Geradoras Mínimas e Bellman Ford para encontrar distâncias a partir de um ponto, incluíndo implementação do método de detecção de ciclos "Union-Find". | Excelente |
 | Nathalia Lorena Cardoso Dias  | - | - |
 | Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas, representa um ciclo, natureza dos caminhos etc) | - |
 | Sofia Costa Patrocinio  | - | - |
