@@ -53,7 +53,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Bruno Carmo Nunes  | - | - |
 | Arthur Paiva Tavares  | - | - |
 | Nathalia Lorena Cardoso Dias  | - | - |
-| Nicolas Georgeos Mantzos  | - | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas etc)  | - |
+| Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas etc) | - |
 | Sofia Costa Patrocinio  | - | - |
 | Wellington Jonathan de Souza Rodrigues  | - | Boa |
 
