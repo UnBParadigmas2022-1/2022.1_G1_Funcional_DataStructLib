@@ -16,7 +16,7 @@
 | 19/0048760 | Wellington Jonathan de Souza Rodrigues |
 ## Sobre 
 O objetivo é construir uma biblioteca que agrege as principais estruturas de dados acompanhadas de seus algoritmos
-"clássicos" para as operações de inserção, ordenação, deleção e busca implementados, por sua vez, no paradigma funcional. 
+principais para as operações de inserção, ordenação, deleção e busca implementados no paradigma funcional. 
 
 Ao final do semestre, os repositórios nos diversos paradigmas serão unificados para a construção de uma biblioteca que documente a performance
 dessas operações.
@@ -46,24 +46,30 @@ OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
 TEMPO: +/- 15min
 
 ## Participações
-Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
+A tabela abaixo sintetiza as contribuições, escritas pelo próprio contribuidor, e a significância delas, acordadas nas reuniões.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | ---- | - |
 | Arthur Paiva Tavares  | - | - |
 | Bruno Carmo Nunes  | - | - |
 | Arthur Paiva Tavares  | - | - |
 | Nathalia Lorena Cardoso Dias  | - | - |
-| Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas etc) | - |
+| Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas, representa um ciclo, natureza dos caminhos etc) | - |
 | Sofia Costa Patrocinio  | - | - |
 | Wellington Jonathan de Souza Rodrigues  | - | - |
 
 ## Outros 
-Quaisquer outras informações sobre o projeto podem ser descritas aqui.
-(i) Lições Aprendidas;
-(ii) Percepções;
-(iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros.
+A tabela abaixo compila as percepções e lições aprendidas por cada participante no desenvolvimento do primeiro módulo do projeto.
+
+|Nome do Membro | Percepções/Lições/Fragilidades... | 
+| -- | ---- |
+| Arthur Paiva Tavares  | - |
+| Bruno Carmo Nunes  | - | 
+| Arthur Paiva Tavares  | - |
+| Nathalia Lorena Cardoso Dias  | - |
+| Nicolas Georgeos Mantzos  | Tive dificuldade de formular soluções recursivas para os problemas com os quais trabalhava iterativamente nos paradigmas estruturado e orientado a objetos. Sem falar, claro, no quanto a sintaxe do Haskell me pareceu áspera e árida na escrita das primeiras linhas e como a importação do que conhecia de outros carnavais muitas vezes mais atrapalhou do que ajudou. Conceitos como "Classes de Tipo", por exemplo,  se alinham mais com a ideia de Interface das liguagens orientadas a objetos do que propriamente com classes. <br> <br>Tentarei chegar mais como uma folha em branco nos próximos paradigmas. <br> <br> Por outro lado, pude afinar minha atrofiada "visão recursiva" ao modelar a solução para os problemas. "Humm...será que consigo quebrar isso em pequenas partes?"   |
+| Sofia Costa Patrocinio  | - | - |
+| Wellington Jonathan de Souza Rodrigues  | - |
+
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda, fontes de leitura complementares.
+
