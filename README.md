@@ -13,10 +13,10 @@
 | 14/0156909  |  Nathalia Lorena Cardoso Dias |
 | 17/0051277  |  Nicolas Georgeos Mantzos |
 | 17/0114333  |  Sofia Costa Patrocinio |
-| 19/0048760 |Wellington Jonathan de Souza Rodrigues |
+| 19/0048760 | Wellington Jonathan de Souza Rodrigues |
 ## Sobre 
-O objetivo é construir uma biblioteca que agrege as principais estruturas de dados e seus algoritmos
-"clássicos" para as operações de inserção, ordenação, deleção e busca implementados no paradigma funcional. 
+O objetivo é construir uma biblioteca que agrege as principais estruturas de dados acompanhadas de seus algoritmos
+"clássicos" para as operações de inserção, ordenação, deleção e busca implementados, por sua vez, no paradigma funcional. 
 
 Ao final do semestre, os repositórios nos diversos paradigmas serão unificados para a construção de uma biblioteca que documente a performance
 dessas operações.
@@ -49,7 +49,13 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa |
+| Arthur Paiva Tavares  | - | - |
+| Bruno Carmo Nunes  | - | - |
+| Arthur Paiva Tavares  | - | - |
+| Nathalia Lorena Cardoso Dias  | - | - |
+| Nicolas Georgeos Mantzos  | - | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas etc)  | - |
+| Sofia Costa Patrocinio  | - | - |
+| Wellington Jonathan de Souza Rodrigues  | - | Boa |
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui.
