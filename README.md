@@ -46,7 +46,7 @@ OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
 TEMPO: +/- 15min
 
 ## Participações
-A tabela abaixo sintetiza as contribuições, escritas pelo próprio contribuidor, e a significância delas, acordadas nas reuniões.
+A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acompanhadas de sua respectiva significância.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | ---- | - |
 | Arthur Paiva Tavares  | - | - |
@@ -57,10 +57,10 @@ A tabela abaixo sintetiza as contribuições, escritas pelo próprio contribuido
 | Sofia Costa Patrocinio  | - | - |
 | Wellington Jonathan de Souza Rodrigues  | - | - |
 
-## Outros 
+## Percepções gerais, lições aprendidas, fragilidades superadas...
 A tabela abaixo compila as percepções e lições aprendidas por cada participante no desenvolvimento do primeiro módulo do projeto.
 
-|Nome do Membro | Percepções/Lições/Fragilidades... | 
+|Nome do Membro | Comentário | 
 | -- | ---- |
 | Arthur Paiva Tavares  | - |
 | Bruno Carmo Nunes  | - | 
@@ -73,3 +73,8 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 
 ## Fontes
 
+> - Rosen, Kenneth. **Matemática Discreta e Suas Aplicações**. 06. ed. São Paulo: Mc Graw Hill, 2009.
+
+> - Khatri Lamba, Jayanti. BFS and DFS Graph Traversals| Breadth First Search and Depth First Search | Data structures. Youtube, 25 jan. 2019. Disponível em: <https://www.youtube.com/watch?v=vf-cxgUXcMk>. Acesso em 01 jul. 2022.
+
+> - Assignment 3: Shortest paths in Haskell, 2014. Disponível em: http://www.cburch.com/cs/360/assn/03/index.html
