@@ -51,7 +51,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | -- | ---- | - |
 | Arthur Paiva Tavares  | - | - |
 | Bruno Carmo Nunes  | - | - |
-| Gabriel Batista Albino Silva | Adição dos algorítmos de Kruskal's para criação de Arvores Geradoras Mínimas e Bellman Ford para encontrar distâncias a partir de um ponto, incluíndo implementação do método de detecção de ciclos "Union-Find". | Boa |
+| Gabriel Batista Albino Silva | Preparação do repositório para medição de tempo e correta importação dos módulos; Adição dos algorítmos de Kruskal's para criação de Arvores Geradoras Mínimas e Bellman Ford para encontrar distâncias a partir de um ponto, incluíndo implementação do método de detecção de ciclos "Union-Find". | Excelente |
 | Nathalia Lorena Cardoso Dias  | - | - |
 | Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas, representa um ciclo, natureza dos caminhos etc) | - |
 | Sofia Costa Patrocinio  | - | - |
@@ -64,7 +64,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 | -- | ---- |
 | Arthur Paiva Tavares  | - |
 | Bruno Carmo Nunes  | - | 
-| Gabriel Batista Albino Silva  | - |
+| Gabriel Batista Albino Silva  | Achei o paradigma funcional complicado para lidar com a recursão de algorítmos complexos de grafos como o Bellman-Ford e o de Kruskal's, uma vez que ambos dependem de iterações anteriores e estrutura de dados auxiliares para seu amplo funcionamento. Sinto que poderia ter feito um trabalho melhor na tradução dos algorítmos para o modo recursivo aproveitando mais o _sugar syntax_ do haskell, porém me senti bastante satisfeito ao implementar uma versão funcional dos algorítimos citados acima. |
 | Nathalia Lorena Cardoso Dias  | - |
 | Nicolas Georgeos Mantzos  | Tive dificuldade de formular soluções recursivas para os problemas com os quais trabalhava iterativamente nos paradigmas estruturado e orientado a objetos. Sem falar, claro, no quanto a sintaxe do Haskell me pareceu áspera e árida na escrita das primeiras linhas e como a importação do que conhecia de outros carnavais muitas vezes mais atrapalhou do que ajudou. Conceitos como "Classes de Tipo", por exemplo,  se alinham mais com a ideia de Interface das liguagens orientadas a objetos do que propriamente com classes. <br> <br>Tentarei chegar mais como uma folha em branco nos próximos paradigmas. <br> <br> Por outro lado, pude afinar minha atrofiada "visão recursiva" ao modelar a solução para os problemas. "Humm...será que consigo quebrar isso em pequenas partes?"   |
 | Sofia Costa Patrocinio  | - | - |
@@ -77,4 +77,6 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 
 > - Khatri Lamba, Jayanti. BFS and DFS Graph Traversals | Breadth First Search and Depth First Search | Data structures. Youtube, 25 jan. 2019. Disponível em: <https://www.youtube.com/watch?v=vf-cxgUXcMk>. Acesso em 01 jul. 2022.
 
-> - Assignment 3: Shortest paths in Haskell, 2014. Disponível em: http://www.cburch.com/cs/360/assn/03/index.html
+> - Assignment 3: Shortest paths in Haskell, 2014. Disponível em: http://www.cburch.com/cs/360/assn/03/index.html (Utilizado apenas a estrutura de grafos bidirecionais com pesos em Haskell)
+
+> - CalculateTime.hs. Disponível em https://github.com/UnBParadigmas2020-2/2020.2_G4_Funcional_SortBenchmark/blob/master/app/CalculateTime.hs
