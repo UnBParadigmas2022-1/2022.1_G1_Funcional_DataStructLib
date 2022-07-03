@@ -48,14 +48,14 @@ TEMPO: +/- 15min
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
-| -- | -- | -- |
+| -- | ---- | - |
 | Arthur Paiva Tavares  | - | - |
 | Bruno Carmo Nunes  | - | - |
 | Arthur Paiva Tavares  | - | - |
 | Nathalia Lorena Cardoso Dias  | - | - |
 | Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas etc) | - |
 | Sofia Costa Patrocinio  | - | - |
-| Wellington Jonathan de Souza Rodrigues  | - | Boa |
+| Wellington Jonathan de Souza Rodrigues  | - | - |
 
 ## Outros 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui.
