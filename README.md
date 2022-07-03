@@ -51,7 +51,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | -- | ---- | - |
 | Arthur Paiva Tavares  | - | - |
 | Bruno Carmo Nunes  | - | - |
-| Arthur Paiva Tavares  | - | - |
+| Gabriel Batista Albino Silva  | - | - |
 | Nathalia Lorena Cardoso Dias  | - | - |
 | Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas, representa um ciclo, natureza dos caminhos etc) | - |
 | Sofia Costa Patrocinio  | - | - |
@@ -64,7 +64,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 | -- | ---- |
 | Arthur Paiva Tavares  | - |
 | Bruno Carmo Nunes  | - | 
-| Arthur Paiva Tavares  | - |
+| Gabriel Batista Albino Silva  | - |
 | Nathalia Lorena Cardoso Dias  | - |
 | Nicolas Georgeos Mantzos  | Tive dificuldade de formular soluções recursivas para os problemas com os quais trabalhava iterativamente nos paradigmas estruturado e orientado a objetos. Sem falar, claro, no quanto a sintaxe do Haskell me pareceu áspera e árida na escrita das primeiras linhas e como a importação do que conhecia de outros carnavais muitas vezes mais atrapalhou do que ajudou. Conceitos como "Classes de Tipo", por exemplo,  se alinham mais com a ideia de Interface das liguagens orientadas a objetos do que propriamente com classes. <br> <br>Tentarei chegar mais como uma folha em branco nos próximos paradigmas. <br> <br> Por outro lado, pude afinar minha atrofiada "visão recursiva" ao modelar a solução para os problemas. "Humm...será que consigo quebrar isso em pequenas partes?"   |
 | Sofia Costa Patrocinio  | - | - |
