@@ -1,10 +1,3 @@
--- Fonte: http://www.cburch.com/cs/360/assn/03/index.html
--- (Replace with student name(s))
--- Assn 3, due 14 Sep 2012
-
---
---
--- Dr. Burch's code starts - do not modify or insert before the marker below
 import Data.Maybe
 import Data.List
 import qualified Data.Map as Map
