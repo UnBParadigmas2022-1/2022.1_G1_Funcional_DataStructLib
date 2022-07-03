@@ -75,6 +75,6 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 
 > - Rosen, Kenneth. **Matemática Discreta e Suas Aplicações**. 06. ed. São Paulo: Mc Graw Hill, 2009.
 
-> - Khatri Lamba, Jayanti. BFS and DFS Graph Traversals| Breadth First Search and Depth First Search | Data structures. Youtube, 25 jan. 2019. Disponível em: <https://www.youtube.com/watch?v=vf-cxgUXcMk>. Acesso em 01 jul. 2022.
+> - Khatri Lamba, Jayanti. BFS and DFS Graph Traversals | Breadth First Search and Depth First Search | Data structures. Youtube, 25 jan. 2019. Disponível em: <https://www.youtube.com/watch?v=vf-cxgUXcMk>. Acesso em 01 jul. 2022.
 
 > - Assignment 3: Shortest paths in Haskell, 2014. Disponível em: http://www.cburch.com/cs/360/assn/03/index.html
