@@ -1,9 +1,9 @@
-import TesteSort (selectAlgoSort)
 import TimeIt
+import TesteSort()
 import WeightedGraph(ark, big)
 import BellmanFord(bellmanFord)
 import Kruskals(kruskals)
-import BFS_DFS (bfs, dfs, g)
+import BFS_DFS(bfs, dfs, g)
 import BinaryTree (valuesPostOrder, insertElement, treexample)
 import TestePilha(testePilha)
 
