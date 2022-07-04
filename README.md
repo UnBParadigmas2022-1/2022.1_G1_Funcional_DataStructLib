@@ -86,7 +86,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 | Gabriel Batista Albino Silva  | Achei o paradigma funcional complicado para lidar com a recursão de algorítmos complexos de grafos como o Bellman-Ford e o de Kruskal's, uma vez que ambos dependem de iterações anteriores e estrutura de dados auxiliares para seu amplo funcionamento. Sinto que poderia ter feito um trabalho melhor na tradução dos algorítmos para o modo recursivo aproveitando mais o _sugar syntax_ do haskell, porém me senti bastante satisfeito ao implementar uma versão funcional dos algorítimos citados acima. |
 | Nathalia Lorena Cardoso Dias  | Senti dificuldades em a assimilar a sintaxe e estruturação de funções em Haskell, pois me lembram mais uma notação matemática do que uma linguagem de programação. Tive dificuldades na assimilação do paradigma funcional como um todo, por isso, optei por iniciar minha contribuição com uma estrutura de dados mais simples.|
 | Nicolas Georgeos Mantzos  | Tive dificuldade de formular soluções recursivas para os problemas com os quais trabalhava iterativamente nos paradigmas estruturado e orientado a objetos. Sem falar, claro, no quanto a sintaxe do Haskell me pareceu áspera e árida na escrita das primeiras linhas e como a importação do que conhecia de outros carnavais muitas vezes mais atrapalhou do que ajudou. Conceitos como "Classes de Tipo", por exemplo,  se alinham mais com a ideia de Interface das liguagens orientadas a objetos do que propriamente com classes. <br> <br>Tentarei chegar mais como uma folha em branco nos próximos paradigmas. <br> <br> Por outro lado, pude afinar minha atrofiada "visão recursiva" ao modelar a solução para os problemas. "Humm...será que consigo quebrar isso em pequenas partes?"   |
-| Sofia Costa Patrocinio  | - | - |
+| Sofia Costa Patrocinio  | Minha maior dificuldade foi a sintaxe do Haskell e entender funções como formas de calcular algo e simplesmente retornar um resultado, sem possibilidade de definir variáveis e afins. Achei o paradigma funcional bem elegante e com poucas linhas de código é possível fazer muito, o que é incrível. Lidar com listas no Haskell é excelente, pois possui inúmeras funções que auxiliam sua manipulação, além da própria estrutura definir cabeça e cauda. |
 | Wellington Jonathan de Souza Rodrigues  | - |
 
 
@@ -110,4 +110,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 > - Implement Stack using Queues. Disponível em: <https://www.geeksforgeeks.org/implement-stack-using-queue/>. Acesso em 02 de Julho. 2022.
 
 > - Curso de Haskell - Aula 28 - Tipos Algébricos. Youtube, 05 fev. 2014. Disponível em: <https://www.youtube.com/watch?v=oXLln91ch1Y>. Acesso em 03 jul. 2022.
+
 > - Algoritimos de ordenação. Disponível em https://github.com/anabxms/algoritmos-ordenacao
+
+> -  Haskell Reference. Disponível em http://zvon.org/other/haskell/Outputglobal/index.html
