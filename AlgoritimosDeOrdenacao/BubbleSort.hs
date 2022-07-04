@@ -1,5 +1,5 @@
 module BubbleSort (bubbleSort) where
--- Bubble Sort
+-- Bubble Sort com Alterações
 -- Fonte: https://github.com/anabxms/algoritmos-ordenacao/blob/main/sorting_algorithms.hs
 
 

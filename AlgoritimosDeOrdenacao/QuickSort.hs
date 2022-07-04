@@ -1,6 +1,7 @@
 module QuickSort (quickSort) where
 
--- QuickSort
+-- QuickSort com alterações
+-- fonte: https://github.com/anabxms/algoritmos-ordenacao/blob/main/sorting_algorithms.hs
 
 
 left :: (Ord a) => [a] -> [a]
