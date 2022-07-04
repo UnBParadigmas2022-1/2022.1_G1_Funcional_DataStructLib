@@ -73,7 +73,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | Gabriel Batista Albino Silva | Adição dos algorítmos de Kruskal's para criação de Arvores Geradoras Mínimas e Bellman Ford para encontrar distâncias a partir de um ponto, incluíndo implementação do método de detecção de ciclos "Union-Find". | Excelente |
 | Nathalia Lorena Cardoso Dias  | Adição do Módulo de Pilha, com inserção de novo elemento, remoção, verificação de pilha vazia e verificação do elemento topo da pilha | - |
 | Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas, representa um ciclo, natureza dos caminhos etc) | - |
-| Sofia Costa Patrocinio  | - | - |
+| Sofia Costa Patrocinio  | Adição do Módulo de Lista, bem com suas funções de Criação, com 1000 elementos, adição de um elemento inteiro randômico entre 1 e 100, remoção do último elemento da lista, função reverse e retorno do maior valor. | - |
 | Wellington Jonathan de Souza Rodrigues  | - | - |
 
 ## Percepções gerais, lições aprendidas, fragilidades superadas...
