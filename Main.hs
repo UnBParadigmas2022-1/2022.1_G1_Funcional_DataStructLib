@@ -2,7 +2,11 @@ import TimeIt
 import WeightedGraph(ark)
 import BellmanFord(bellmanFord)
 import Kruskals(kruskals)
+<<<<<<< HEAD
 import BFS_DFS (bfs, dfs, g)
+=======
+import BinaryTree (valuesPostOrder, insertElement, treexample)
+>>>>>>> d12c7ce... Adicionando execução de insert e postOrder à main
 
 menuGrafo = do
   putStrLn "Algoritmos:"
@@ -18,7 +22,12 @@ menuGrafo = do
 main = do
   putStrLn "Modulos:"
   putStrLn "(1) Grafos"
+<<<<<<< HEAD
   putStr "Selecione o módulo desejado: "
+=======
+  putStrLn "(2) Árvore Binária"
+>>>>>>> d12c7ce... Adicionando execução de insert e postOrder à main
   opcao <- getLine
   case opcao of
     "1" -> menuGrafo
+    "2" -> timeIt $ putStrLn ("Result: " ++ show (valuesPostOrder (insertElement treexample 5)))
