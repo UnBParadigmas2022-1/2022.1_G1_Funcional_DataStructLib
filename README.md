@@ -10,9 +10,9 @@
 | 18/0013637 | Arthur Paiva Tavares |
 | 18/0117548 | Bruno Carmo Nunes |
 | 16/0028361 | Gabriel Batista Albino Silva |
-| 14/0156909  |  Nathalia Lorena Cardoso Dias |
-| 17/0051277  |  Nicolas Georgeos Mantzos |
-| 17/0114333  |  Sofia Costa Patrocinio |
+| 14/0156909 | Nathalia Lorena Cardoso Dias |
+| 17/0051277 | Nicolas Georgeos Mantzos |
+| 17/0114333 | Sofia Costa Patrocinio |
 | 19/0048760 | Wellington Jonathan de Souza Rodrigues |
 ## Sobre 
 O objetivo é construir uma biblioteca que agrege as principais estruturas de dados acompanhadas de seus algoritmos
@@ -49,7 +49,7 @@ TEMPO: +/- 15min
 A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acompanhadas de sua respectiva significância.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | ---- | - |
-| Arthur Paiva Tavares  | - | - |
+| Arthur Paiva Tavares  | Adição do Módulo de Árvore binária com inserção, travessia em Pré-Ordem, Em-Ordem e Pós-Ordem e a implementação da função fmap com Functors | - |
 | Bruno Carmo Nunes  | - | - |
 | Gabriel Batista Albino Silva | Adição dos algorítmos de Kruskal's para criação de Arvores Geradoras Mínimas e Bellman Ford para encontrar distâncias a partir de um ponto, incluíndo implementação do método de detecção de ciclos "Union-Find". | Excelente |
 | Nathalia Lorena Cardoso Dias  | - | - |
@@ -80,3 +80,8 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 > - Assignment 3: Shortest paths in Haskell, 2014. Disponível em: http://www.cburch.com/cs/360/assn/03/index.html (Utilizado apenas a estrutura de grafos bidirecionais com pesos em Haskell)
 
 > - CalculateTime.hs. Disponível em https://github.com/UnBParadigmas2020-2/2020.2_G4_Funcional_SortBenchmark/blob/master/app/CalculateTime.hs
+
+> - Exploring Binary Trees (Part 1) - Haskell.
+ Youtube, 08 mai. 2019. Disponível em: <https://www.youtube.com/watch?v=2cBeXpQcB_o>. Acesso em 03 jul. 2022.
+
+> - Exploring Binary Trees (Part 2) - Haskell. Youtube, 08 mai. 2019. Disponível em: <https://www.youtube.com/watch?v=a-nMwpMzZP8>. Acesso em 03 jul. 2022.
