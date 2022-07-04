@@ -7,17 +7,17 @@ import BinaryTree (valuesPostOrder, insertElement, treexample)
 
 menuGrafo = do
   putStrLn "Algoritmos:"
-  putStrLn "(1) Bellman Ford\n(2) Kruskal's\n(3) Busca em Largura (BFS)\n(4) Busca em Profundidade (DFS)"
+  putStrLn "(1) Bellman Ford\n(2) Krusal's\n(3) Busca em Largura (BFS)\n(4) Busca em Profundidade (DFS)"
   putStr "Selecione um algoritmo: "
   opcao <- getLine
   case opcao of
     "1" -> timeIt $ putStrLn ("Result: " ++ show (bellmanFord ark "Clinton"))
     "2" -> timeIt $ putStrLn ("Result: " ++ show (kruskals ark))
-    "3" -> timeIt $ putStrLn ("Result: " ++ show (bfs g [] ["Marshall"]))
-    "4" -> timeIt $ putStrLn ("Result: " ++ show (dfs g "Marshall"))
+    "3" -> timeIt $ putStrLn ("Result: " ++ show (bfs g [] ["Clinton"]))
+    "4" -> timeIt $ putStrLn ("Result: " ++ show (dfs g "Clinton"))
 
 main = do
-  putStrLn "Modulos:"
+  putStrLn "Módulos:"
   putStrLn "(1) Grafos"
   putStrLn "(2) Árvore Binária"
   putStr "Selecione o módulo desejado: "
