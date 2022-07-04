@@ -23,7 +23,10 @@ menuGrafo = do
     "2" -> timeIt $ putStrLn ("Result: " ++ show (kruskals ark))
     "3" -> timeIt $ putStrLn ("Result: " ++ show (bfs g [] ["Clinton"]))
     "4" -> timeIt $ putStrLn ("Result: " ++ show (dfs g "Clinton"))
+<<<<<<< HEAD
 >>>>>>> 3ede0f1... correção de conflito
+=======
+>>>>>>> fdf7fa8... correção de conflito
 
 main = do
   putStrLn "Módulos:"
