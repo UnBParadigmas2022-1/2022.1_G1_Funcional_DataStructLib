@@ -1,2 +1,1 @@
-:set -igrafos -iassets -iutil -iarvorebinaria
- 
+:set -igrafos -iassets -iutil -iarvorebinaria -imergesort

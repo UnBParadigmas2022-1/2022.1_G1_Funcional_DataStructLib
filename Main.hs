@@ -1,3 +1,4 @@
+import Teste
 import TimeIt
 import WeightedGraph(ark, big)
 import BellmanFord(bellmanFord)
@@ -20,8 +21,10 @@ main = do
   putStrLn "Módulos:"
   putStrLn "(1) Grafos"
   putStrLn "(2) Árvore Binária"
+  putStrLn "(3) Merge Sort"
   putStr "Selecione o módulo desejado: "
   opcao <- getLine
   case opcao of
     "1" -> menuGrafo
     "2" -> timeIt $ putStrLn ("Result: " ++ show (valuesPostOrder (insertElement treexample 5)))
+    "3" -> timeIt $ doMergeSort
