@@ -1,4 +1,4 @@
-import Teste
+import TesteSort (selectAlgoSort)
 import TimeIt
 import WeightedGraph(ark, big)
 import BellmanFord(bellmanFord)
@@ -6,7 +6,7 @@ import Kruskals(kruskals)
 import BFS_DFS (bfs, dfs, g)
 import BinaryTree (valuesPostOrder, insertElement, treexample)
 import TestePilha(testePilha)
-import TesteSort
+
 
 menuGrafo = do
   putStrLn "Algoritmos:"
@@ -26,7 +26,6 @@ main = do
   putStrLn "(3) Pilha"
   putStrLn "(4) Merge Sort"
   putStrLn "(5) Algoritimos de Ordenação"
-
   putStr "Selecione o módulo desejado: "
   opcao <- getLine
   case opcao of

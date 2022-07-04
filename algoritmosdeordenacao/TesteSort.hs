@@ -1,4 +1,5 @@
-module TesteSort where
+module TesteSort (selectAlgoSort) where
+    
 import TimeIt
 import System.IO
 import Data.Char
