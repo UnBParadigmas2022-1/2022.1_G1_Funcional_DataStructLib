@@ -5,6 +5,7 @@ import BellmanFord(bellmanFord)
 import Kruskals(kruskals)
 import BFS_DFS (bfs, dfs, g)
 import BinaryTree (valuesPostOrder, insertElement, treexample)
+import TestePilha(testePilha)
 
 menuGrafo = do
   putStrLn "Algoritmos:"
@@ -21,10 +22,12 @@ main = do
   putStrLn "Módulos:"
   putStrLn "(1) Grafos"
   putStrLn "(2) Árvore Binária"
-  putStrLn "(3) Merge Sort"
+  putStrLn "(3) Pilha"
+  putStrLn "(4) Merge Sort"
   putStr "Selecione o módulo desejado: "
   opcao <- getLine
   case opcao of
     "1" -> menuGrafo
     "2" -> timeIt $ putStrLn ("Result: " ++ show (valuesPostOrder (insertElement treexample 5)))
-    "3" -> timeIt $ doMergeSort
+    "3" -> timeIt $ testePilha
+    "4" -> timeIt $ doMergeSort

@@ -1,10 +1,8 @@
-module TestePilha where
+module TestePilha (testePilha) where
 
 import Pilha(isEmpty,push,pop,top)
 
-main = do
-    
-
+testePilha = do
     let a = []
     let b = push a 1
     print (b)
