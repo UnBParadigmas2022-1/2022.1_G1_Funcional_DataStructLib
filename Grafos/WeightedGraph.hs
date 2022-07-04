@@ -12,7 +12,6 @@ import Data.Maybe
 import Data.List
 import qualified Data.Map as Map
 
-
 type Graph = Map.Map String (Map.Map String Double)
 
 uniq :: [String] -> [String]

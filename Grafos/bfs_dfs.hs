@@ -1,3 +1,5 @@
+module BFS_DFS (bfs, dfs, g) where
+
 import Control.Monad
 import Data.Maybe
 import Data.List
@@ -13,7 +15,20 @@ instance Eq a => Eq (ArestaGrafoNaoDirecionado a) where
 
 data Graph a = G [ArestaGrafoNaoDirecionado a] deriving Show -- Grafos são listas de arestas. Aqui, definimos o construtor
 
-g = G [Agn ('a','b'), Agn ('b','c') , Agn ('x','a'), Agn ('b','z'), Agn ('z','c'), Agn ('a','w'), Agn ('c','w')]
+g = G [Agn("Conway", "Russellville"),
+       Agn("Conway", "Clinton"),
+       Agn("Conway", "Heber Springs"),
+       Agn("Heber Springs", "Mountain View"),
+       Agn("Clinton", "Mountain View"),
+       Agn("Clinton", "Marshall"), 
+       Agn("Marshall", "Mountain View"), 
+       Agn("Marshall", "Yellville"), 
+       Agn("Yellville", "Mountain Home"), 
+       Agn("Mountain View", "Mountain Home"), 
+       Agn("Marshall", "Pindall"), 
+       Agn("Pindall", "Yellville"), 
+       Agn("Russellville", "Pindall"), 
+       Agn("Russellville", "Marshall")]
 
 vertices :: Eq a => Graph a -> [a]
 vertices (G l) = nub.join $ [[a,b] | (Agn (a,b)) <- l] -- função que retorna os nos do grafo
