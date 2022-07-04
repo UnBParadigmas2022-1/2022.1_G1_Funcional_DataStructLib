@@ -1,5 +1,5 @@
 import TimeIt
-import WeightedGraph(ark)
+import WeightedGraph(ark, big)
 import BellmanFord(bellmanFord)
 import Kruskals(kruskals)
 import BFS_DFS (bfs, dfs, g)
@@ -11,8 +11,8 @@ menuGrafo = do
   putStr "Selecione um algoritmo: "
   opcao <- getLine
   case opcao of
-    "1" -> timeIt $ putStrLn ("Result: " ++ show (bellmanFord ark "Clinton"))
-    "2" -> timeIt $ putStrLn ("Result: " ++ show (kruskals ark)) 
+    "1" -> timeIt $ putStrLn ("Result: " ++ show (bellmanFord big "1"))
+    "2" -> timeIt $ putStrLn ("Result: " ++ show (kruskals big)) 
     "3" -> timeIt $ putStrLn ("Result: " ++ show (bfs g [] ["Marshall"])) 
     "4" -> timeIt $ putStrLn ("Result: " ++ show (dfs g "Marshall")) 
 

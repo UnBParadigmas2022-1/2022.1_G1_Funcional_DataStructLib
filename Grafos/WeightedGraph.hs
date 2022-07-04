@@ -5,12 +5,14 @@ module WeightedGraph (
   nodes,
   neighbors,
   ark,
+  big,
   Graph
 ) where
 
 import Data.Maybe
 import Data.List
 import qualified Data.Map as Map
+import BigGraph(bigGraph)
 
 type Graph = Map.Map String (Map.Map String Double)
 
@@ -42,3 +44,6 @@ neighbors g n = Map.keys (Map.findWithDefault Map.empty n g)
 
 ark = makeGraph (undirEdges ++ map (\(s, t, w) -> (t, s, w)) undirEdges)
   where undirEdges = [("Conway", "Russellville", 44.2),("Conway", "Clinton", 38.2),("Conway", "Heber Springs", 39.0),("Heber Springs", "Mountain View", 41.9),("Clinton", "Mountain View", 34.0),("Clinton", "Marshall", 26.1),("Marshall", "Mountain View", 37.1),("Marshall", "Yellville", 34.1),("Yellville", "Mountain Home", 18.7),("Mountain View", "Mountain Home", 47.3),("Marshall", "Pindall", 20.5),("Pindall", "Yellville", 19.7), ("Russellville", "Pindall", 78.3),("Russellville", "Marshall", 72.0)]
+
+big = makeGraph (undirEdges ++ map (\(s, t, w) -> (t, s, w)) undirEdges)
+  where undirEdges = bigGraph
