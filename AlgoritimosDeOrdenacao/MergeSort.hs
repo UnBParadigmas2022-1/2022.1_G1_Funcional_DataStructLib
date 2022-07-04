@@ -1,5 +1,7 @@
 module MergeSort (mergeSort) where
--- MergeSorte 
+
+-- MergeSorte  com alterações
+-- fonte: https://github.com/anabxms/algoritmos-ordenacao/blob/main/sorting_algorithms.hs
 
 
 intercala :: Ord a => [a] -> [a] -> [a]

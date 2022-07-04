@@ -1,4 +1,6 @@
-module InsertionSort(insertionSort) where
+module InsertionSort (insertionSort) where
+-- InsertionSort  com alterações
+-- fonte: https://github.com/anabxms/algoritmos-ordenacao/blob/main/sorting_algorithms.hs
 
 -- funcao ordena
 ordenador::(Ord a) => a -> [a] -> [a]

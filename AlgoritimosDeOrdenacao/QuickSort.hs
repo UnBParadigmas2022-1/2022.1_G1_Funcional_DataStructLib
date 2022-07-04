@@ -1,4 +1,4 @@
-module QuickSort(quickSort) where
+module QuickSort (quickSort) where
 
 -- QuickSort
 

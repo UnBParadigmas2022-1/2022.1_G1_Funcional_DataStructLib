@@ -1,5 +1,7 @@
 module SelectionSort(selectionSort) where
 -- Selection Sort
+-- fonte: https://github.com/anabxms/algoritmos-ordenacao/blob/main/sorting_algorithms.hs
+
 
 menor :: (Ord a) => [a] -> a
 menor [r] = r

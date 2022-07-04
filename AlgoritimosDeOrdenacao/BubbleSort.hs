@@ -1,5 +1,6 @@
-module BubbleSort(bubbleSort) where
+module BubbleSort (bubbleSort) where
 -- Bubble Sort
+-- Fonte: https://github.com/anabxms/algoritmos-ordenacao/blob/main/sorting_algorithms.hs
 
 
 ordenador :: (Ord a) => [a] -> Bool
