@@ -52,7 +52,7 @@ Abra o **GHCI**, que é o modo interativo do Haskell dentro da pasta do Projeto
 $ ghci
 ```
 
-você poderá carregar as funções digitando ```:l main.hs```,  dentro do pasta do projeto.
+você poderá carregar as funções digitando ```:l Main.hs```,  dentro do pasta do projeto.
 
 # Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
@@ -110,3 +110,4 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 > - Implement Stack using Queues. Disponível em: <https://www.geeksforgeeks.org/implement-stack-using-queue/>. Acesso em 02 de Julho. 2022.
 
 > - Curso de Haskell - Aula 28 - Tipos Algébricos. Youtube, 05 fev. 2014. Disponível em: <https://www.youtube.com/watch?v=oXLln91ch1Y>. Acesso em 03 jul. 2022.
+> - Algoritimos de ordenação. Disponível em https://github.com/anabxms/algoritmos-ordenacao
