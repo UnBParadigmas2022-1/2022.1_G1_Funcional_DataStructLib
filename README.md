@@ -32,8 +32,27 @@ Insira um manual ou um script para auxiliar ainda mais.
 Gifs animados e outras ilustrações são bem-vindos!
 
 ## Uso 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software.
+
+## Haskell
+
+Inicialmente é necessario que  instale a plataforma do Haskell. Se você estiver no linux baseado no Debian, basta copiar a seguinte linha no seu terminal:
+```
+$ sudo apt-get install haskell-platform
+```
+
+Clone este repositório:
+
+```
+$ git clone <https://github.com/UnBParadigmas2022-1/2022.1_G1_Funcional_DataStructLib.git>
+```
+
+Abra o **GHCI**, que é o modo interativo do Haskell dentro da pasta do Projeto
+
+```
+$ ghci
+```
+
+você poderá carregar as funções digitando ```:l main.hs```,  dentro do pasta do projeto.
 
 # Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto.
