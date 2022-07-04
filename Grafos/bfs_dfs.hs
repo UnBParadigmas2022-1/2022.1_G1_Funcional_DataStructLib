@@ -56,10 +56,6 @@ conectarArestasProximas [] = []
 conectarArestasProximas [a] = []
 conectarArestasProximas (x:y:xs) = (Agn (x,y)) : (conectarArestasProximas $ y:xs)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 878e45c0a724a69e8f1031a4b311d3f0f4b3dbc2
 isTrilha :: Eq a => Graph a -> [a] -> Bool
 isTrilha g l = (isPasseio g l) && ((length alle) == (length.nub $ alle)) where alle = conectarArestasProximas l
 -- Para ser uma trilha, deve ser uma caminho.
