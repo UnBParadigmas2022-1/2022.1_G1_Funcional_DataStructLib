@@ -50,7 +50,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | ---- | - |
 | Arthur Paiva Tavares  | Adição do Módulo de Árvore binária com inserção, travessia em Pré-Ordem, Em-Ordem e Pós-Ordem e a implementação da função fmap com Functors | - |
-| Bruno Carmo Nunes  | - | - |
+| Bruno Carmo Nunes  | Adição do algoritmo de ordenação MergeSort, juntamente com o teste com 10000 e 100000 números randômicos e também repetidos. | - |
 | Gabriel Batista Albino Silva | Adição dos algorítmos de Kruskal's para criação de Arvores Geradoras Mínimas e Bellman Ford para encontrar distâncias a partir de um ponto, incluíndo implementação do método de detecção de ciclos "Union-Find". | Excelente |
 | Nathalia Lorena Cardoso Dias  | - | - |
 | Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas, representa um ciclo, natureza dos caminhos etc) | - |
@@ -63,7 +63,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 |Nome do Membro | Comentário | 
 | -- | ---- |
 | Arthur Paiva Tavares  | - |
-| Bruno Carmo Nunes  | - | 
+| Bruno Carmo Nunes  | Considerei bem complicado tentar reimplementar o mergeSort, apesar de ele já haver uma recursão no paradigma estrutural, a dificuldade ocorreu justamente na falta de um laço e também nessa ideia de tipificação dos dados. Apesar de a ideia ser tranquila, onde é justamente dividir e conquistar, acabei me enrolando justamente na parte de dividir em pequenos pedaços e juntá-los tudo em uma só lista. <br> O maior problema foi realmente fazer essa solução como tudo sendo recursivo. Tive que procurar algumas ajudas na internet, como fazer essas quebras de cada uma das listas, onde achei o recurso para usar o fst e o snd, que são para pegar a primeira e a segunda variável dentro das tuplas. <br> No fim, apesar das raivas que passei, gostei de implementar esse paradigma. Creio que o maior problema deve ser na prática do mesmo. | 
 | Gabriel Batista Albino Silva  | Achei o paradigma funcional complicado para lidar com a recursão de algorítmos complexos de grafos como o Bellman-Ford e o de Kruskal's, uma vez que ambos dependem de iterações anteriores e estrutura de dados auxiliares para seu amplo funcionamento. Sinto que poderia ter feito um trabalho melhor na tradução dos algorítmos para o modo recursivo aproveitando mais o _sugar syntax_ do haskell, porém me senti bastante satisfeito ao implementar uma versão funcional dos algorítimos citados acima. |
 | Nathalia Lorena Cardoso Dias  | - |
 | Nicolas Georgeos Mantzos  | Tive dificuldade de formular soluções recursivas para os problemas com os quais trabalhava iterativamente nos paradigmas estruturado e orientado a objetos. Sem falar, claro, no quanto a sintaxe do Haskell me pareceu áspera e árida na escrita das primeiras linhas e como a importação do que conhecia de outros carnavais muitas vezes mais atrapalhou do que ajudou. Conceitos como "Classes de Tipo", por exemplo,  se alinham mais com a ideia de Interface das liguagens orientadas a objetos do que propriamente com classes. <br> <br>Tentarei chegar mais como uma folha em branco nos próximos paradigmas. <br> <br> Por outro lado, pude afinar minha atrofiada "visão recursiva" ao modelar a solução para os problemas. "Humm...será que consigo quebrar isso em pequenas partes?"   |
@@ -85,3 +85,5 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
  Youtube, 08 mai. 2019. Disponível em: <https://www.youtube.com/watch?v=2cBeXpQcB_o>. Acesso em 03 jul. 2022.
 
 > - Exploring Binary Trees (Part 2) - Haskell. Youtube, 08 mai. 2019. Disponível em: <https://www.youtube.com/watch?v=a-nMwpMzZP8>. Acesso em 03 jul. 2022.
+
+> - Merge Sort - Wikipedia. Disponível em : <https://pt.wikipedia.org/wiki/Merge_sort>. Acesso em 04/07/2022.
