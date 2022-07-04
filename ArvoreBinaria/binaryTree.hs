@@ -1,4 +1,4 @@
-module BinaryTree (BinaryTree, valuesPreOrder, valuesInOrder, valuesPostOrder, insertElement) where
+module BinaryTree (BinaryTree, valuesPreOrder, valuesInOrder, valuesPostOrder, insertElement, treexample) where
 
 import GHC.Exts.Heap (GenClosure (value))
 
@@ -57,3 +57,5 @@ insertElement (Leaf a) x
 insertElement (Node left a right) x
   | a > x = Node (insertElement left x) a right
   | a <= x = Node left a (insertElement right x)
+
+treexample = Node (Node (Leaf 4) 3 Empty) 8 (Node (Leaf 6) 1 Empty)

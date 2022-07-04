@@ -3,6 +3,7 @@ import WeightedGraph(ark)
 import BellmanFord(bellmanFord)
 import Kruskals(kruskals)
 import BFS_DFS (bfs, dfs, g)
+import BinaryTree (valuesPostOrder, insertElement, treexample)
 
 menuGrafo = do
   putStrLn "Algoritmos:"
@@ -11,14 +12,16 @@ menuGrafo = do
   opcao <- getLine
   case opcao of
     "1" -> timeIt $ putStrLn ("Result: " ++ show (bellmanFord ark "Clinton"))
-    "2" -> timeIt $ putStrLn ("Result: " ++ show (kruskals ark)) 
-    "3" -> timeIt $ putStrLn ("Result: " ++ show (bfs g [] ["Marshall"])) 
-    "4" -> timeIt $ putStrLn ("Result: " ++ show (dfs g "Marshall")) 
+    "2" -> timeIt $ putStrLn ("Result: " ++ show (kruskals ark))
+    "3" -> timeIt $ putStrLn ("Result: " ++ show (bfs g [] ["Marshall"]))
+    "4" -> timeIt $ putStrLn ("Result: " ++ show (dfs g "Marshall"))
 
 main = do
   putStrLn "Modulos:"
   putStrLn "(1) Grafos"
+  putStrLn "(2) Árvore Binária"
   putStr "Selecione o módulo desejado: "
   opcao <- getLine
   case opcao of
     "1" -> menuGrafo
+    "2" -> timeIt $ putStrLn ("Result: " ++ show (valuesPostOrder (insertElement treexample 5)))
