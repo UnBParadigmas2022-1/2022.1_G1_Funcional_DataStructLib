@@ -6,6 +6,7 @@ import Kruskals(kruskals)
 import BFS_DFS (bfs, dfs, g)
 import BinaryTree (valuesPostOrder, insertElement, treexample)
 import TestePilha(testePilha)
+import TesteSort
 
 menuGrafo = do
   putStrLn "Algoritmos:"
@@ -24,6 +25,8 @@ main = do
   putStrLn "(2) Árvore Binária"
   putStrLn "(3) Pilha"
   putStrLn "(4) Merge Sort"
+  putStrLn "(5) Algoritimos de Ordenação"
+
   putStr "Selecione o módulo desejado: "
   opcao <- getLine
   case opcao of
@@ -31,3 +34,4 @@ main = do
     "2" -> timeIt $ putStrLn ("Result: " ++ show (valuesPostOrder (insertElement treexample 5)))
     "3" -> timeIt $ testePilha
     "4" -> timeIt $ doMergeSort
+    "5" -> selectAlgoSort
