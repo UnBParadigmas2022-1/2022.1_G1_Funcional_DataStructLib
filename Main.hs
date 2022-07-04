@@ -19,8 +19,8 @@ menuGrafo = do
 main = do
   putStrLn "Módulos:"
   putStrLn "(1) Grafos"
-  putStr "Selecione o módulo desejado: "
   putStrLn "(2) Árvore Binária"
+  putStr "Selecione o módulo desejado: "
   opcao <- getLine
   case opcao of
     "1" -> menuGrafo
