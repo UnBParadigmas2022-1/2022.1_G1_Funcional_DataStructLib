@@ -1,6 +1,5 @@
-module TesteFila (testeCriaLista, testeAdicionaElemento, testeRemoveElemento, testeReverse, testeMaiorValor) where
+module TesteLista (testeCriaLista, testeAdicionaElemento, testeRemoveElemento, testeReverse, testeMaiorValor) where
 import Data.Char
-import System.Random
 import System.IO
 
 import Lista(append, removeElement, reverseList, maximumValue)
@@ -14,7 +13,7 @@ testeCriaLista = do
 testeAdicionaElemento = do 
     valores <- readFile "./assets/MilElementos.txt"
     let list = map read $ words valores :: [Int]
-    a <- drawInt 1 100
+    a <- randomNumber 1 100
     print (append a list)
 
 testeRemoveElemento = do 
