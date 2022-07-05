@@ -63,13 +63,13 @@ você poderá carregar as funções digitando ```:l Main.hs```,  dentro do pasta
 A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acompanhadas de sua respectiva significância.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | ---- | - |
-| Arthur Paiva Tavares  | Adição do Módulo de Árvore binária com inserção, travessia em Pré-Ordem, Em-Ordem e Pós-Ordem e a implementação da função fmap com Functors | - |
-| Bruno Carmo Nunes  | Adição do algoritmo de ordenação MergeSort, juntamente com o teste com 10000 e 100000 números randômicos e também repetidos. | - |
+| Arthur Paiva Tavares  | Adição do Módulo de Árvore binária com inserção, travessia em Pré-Ordem, Em-Ordem e Pós-Ordem e a implementação da função fmap com Functors | Excelente |
+| Bruno Carmo Nunes  | Adição do algoritmo de ordenação MergeSort, juntamente com o teste com 10000 e 100000 números randômicos e também repetidos. | Excelente |
 | Gabriel Batista Albino Silva | Adição dos algorítmos de Kruskal's para criação de Arvores Geradoras Mínimas e Bellman Ford para encontrar distâncias a partir de um ponto, incluíndo implementação do método de detecção de ciclos "Union-Find". | Excelente |
-| Nathalia Lorena Cardoso Dias  | Adição do Módulo de Pilha, com inserção de novo elemento, remoção, verificação de pilha vazia e verificação do elemento topo da pilha | - |
-| Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas, representa um ciclo, natureza dos caminhos etc) | - |
-| Sofia Costa Patrocinio  | Adição do Módulo de Lista, bem com suas funções de Criação, com 1000 elementos, adição de um elemento, remoção do último elemento da lista, função reverse e retorno do maior valor. | - |
-| Wellington Jonathan de Souza Rodrigues  | Adição do Módulo de “Algoritmos de ordenação”, contendo os principais  algorítimos de ordenação entre InsertionSort, MergeSort,  QuickSort juntamente com um teste utilizando um vetor de 100000 números randômicos e também repetidos. | - |
+| Nathalia Lorena Cardoso Dias  | Adição do Módulo de Pilha, com inserção de novo elemento, remoção, verificação de pilha vazia e verificação do elemento topo da pilha | Excelente |
+| Nicolas Georgeos Mantzos  | Adição dos algoritmos para Busca em Profundidade, Busca em Largura e avaliação geral dos grafos (possui caminhos, possui passeios, possui trilhas, representa um ciclo, natureza dos caminhos etc) | Excelente |
+| Sofia Costa Patrocinio  | Adição do Módulo de Lista, bem com suas funções de Criação, com 1000 elementos, adição de um elemento, remoção do último elemento da lista, função reverse e retorno do maior valor. | Excelente |
+| Wellington Jonathan de Souza Rodrigues  | Adição do Módulo de “Algoritmos de ordenação”, contendo os principais  algorítimos de ordenação entre InsertionSort, MergeSort,  QuickSort juntamente com um teste utilizando um vetor de 100000 números randômicos e também repetidos. | Excelente |
 
 ## Percepções gerais, lições aprendidas, fragilidades superadas...
 A tabela abaixo compila as percepções e lições aprendidas por cada participante no desenvolvimento do primeiro módulo do projeto.
