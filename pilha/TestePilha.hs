@@ -1,8 +1,10 @@
-module TestePilha (testePilha) where
+module TestePilha where
 
 import Pilha(isEmpty,push,pop,top)
 
-testePilha = do
+main = do
+
+
     let a = []
     let b = push a 1
     print (b)
@@ -12,23 +14,21 @@ testePilha = do
     print (b)
     let a = push b 18
     print (a)
-    let b = pop a
-    let a = push b 34
+    let b = push a 11
+    print (b)
+    let a = push b 20
     print (a)
-    let b = pop a
-    let a = push b 6
+    let b = push a 13
+    print (b)
+    let a = push b 21
     print (a)
-    let b = pop a
-    let a = push b 8
-    print (a)
-    let b = pop a
-    let a = push b 17
-    print (a)
-    let b = pop a
-    let a = push b 2
-    print (a)
-    let b = pop a
-    let a = push b 9
+    let b = push a 32
+    print (b)
+
+
+    let a = pop b
     print (a)
     let b = pop a
     print (b)
+    let a = pop b
+    print (a)
