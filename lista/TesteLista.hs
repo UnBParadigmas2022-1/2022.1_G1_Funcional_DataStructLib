@@ -13,8 +13,6 @@ testeAdicionaElemento = do
     valores <- readFile "./assets/MilElementos.txt"
     let list = map read $ words valores :: [Int]
     print (append 20 list)
-    a <- randomNumber 1 100
-    print (append a list)
 
 testeRemoveElemento = do
     valores <- readFile "./assets/MilElementos.txt"
