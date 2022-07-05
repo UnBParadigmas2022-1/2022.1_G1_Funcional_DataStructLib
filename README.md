@@ -22,7 +22,9 @@ Ao final do semestre, os repositórios nos diversos paradigmas serão unificados
 dessas operações.
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![Screenshot](assets/img/Screenshot%20from%202022-07-04%2022-50-11.png)
+![Screenshot](assets/img/Screenshot%20from%202022-07-04%2022-50-48.png)
+![Screenshot](assets/img/Screenshot%20from%202022-07-04%2022-51-10.png)
 
 ## Instalação 
 **Linguagens**: Haskell<br>
@@ -55,14 +57,7 @@ $ ghci
 você poderá carregar as funções digitando ```:l Main.hs```,  dentro do pasta do projeto.
 
 # Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+[![Watch the video](assets/img/Screenshot%20from%202022-07-04%2022-52-13.png)](https://www.youtube.com/watch?v=_EM0s2SYB-4)
 
 ## Participações
 A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acompanhadas de sua respectiva significância.
