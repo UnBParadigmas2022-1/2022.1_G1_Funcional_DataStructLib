@@ -13,7 +13,7 @@ removeElement xs = init xs
 -- Implementa reverse na lista
 reverseList :: [Int] -> [Int]
 reverseList [] = []                 -- Em caso de lista vazia
-reverseList (x:xs) = reverse xs ++ [x]
+reverseList (x:xs) = reverseList xs ++ [x]
 
 -- Pega o maior valor presente na lista
 maximumValue :: [Int] -> Int
