@@ -3,7 +3,6 @@ import Data.Char
 import System.IO
 
 import Lista(append, removeElement, reverseList, maximumValue)
-import RandomNumber(randomNumber)
 
 testeCriaLista = do
     valores <- readFile "./assets/MilElementos.txt"
@@ -13,8 +12,7 @@ testeCriaLista = do
 testeAdicionaElemento = do 
     valores <- readFile "./assets/MilElementos.txt"
     let list = map read $ words valores :: [Int]
-    a <- randomNumber 1 100
-    print (append a list)
+    print (append 20 list)
 
 testeRemoveElemento = do 
     valores <- readFile "./assets/MilElementos.txt"
