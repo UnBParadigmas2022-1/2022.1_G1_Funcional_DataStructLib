@@ -40,13 +40,13 @@ menuSort = do
         "6" -> timeIt $allSort
 
 menuLista = do   
-    putStrLn "Módulos:"
+    putStrLn "Funções:"
     putStrLn "(1) Criar uma lista com 1000 elementos"
     putStrLn "(2) Adiciona um valor a lista"
     putStrLn "(3) Remove último elemento da lista"
     putStrLn "(4) Implementa reverse na lista"
     putStrLn "(5) Pegar maior valor da lista"
-    putStr "Selecione o módulo desejado: "
+    putStr "Selecione uma função: "
     opcao <- getLine
     case opcao of
         "1" -> timeIt $testeCriaLista

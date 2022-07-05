@@ -1,4 +1,4 @@
-module List(append, removeElement, reverseList, maximumValue) where
+module Lista(append, removeElement, reverseList, maximumValue) where
 
 -- Adiciona elementos a uma lista pré-definida e retorna lista
 append :: Int -> [Int] -> [Int]
