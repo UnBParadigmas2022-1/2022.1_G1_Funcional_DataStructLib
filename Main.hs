@@ -1,6 +1,6 @@
 import TimeIt
 import TesteSort(doMergeSorts, doQuicksort, doInsertion, doSelectionSort, doBubbleSort, allSort ) 
-import TesteFila (testeCriaLista, testeAdicionaElemento, testeRemoveElemento, testeReverse, testeMaiorValor)
+import TesteLista (testeCriaLista, testeAdicionaElemento, testeRemoveElemento, testeReverse, testeMaiorValor)
 import WeightedGraph(ark, big)
 import BellmanFord(bellmanFord)
 import Kruskals(kruskals)
